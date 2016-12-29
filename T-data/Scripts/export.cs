@@ -148,11 +148,12 @@ public class UtilitiesToolbar{
 	 [DeclareAction("OpenProjectFolder")]
 	 public void openProjectFolderFunction(){
 		string projectFolder = "";
-		projectFolder = myLib.getProjectPath(2);
+		projectFolder = myLib.getProjectPath(0);
 		if(projectFolder == string.Empty){
 			MessageBox.Show("Not able to open path. Select ONE project.", "ERROR");
 		}
 		else{
+			projectFolder = projectFolder.Remove(projectFolder.Length -3, 3) + "edb" + "\\DOC\\";
 			System.Diagnostics.Process.Start("explorer.exe", projectFolder);
 		}
     }
@@ -160,6 +161,19 @@ public class UtilitiesToolbar{
 	[DeclareAction("backupProject")]
 	public void backupProject(){
 		myLib.backup();
+	}
+	
+	[DeclareAction("TogglePropertyKeys")]
+	public void TogglePropertyKeys(){
+		Eplan.EplApi.Base.Settings oSettings = new Eplan.EplApi.Base.Settings();
+		bool flag = !oSettings.GetBoolSetting("USER.EnfMVC.ContextMenuSetting.ShowExtended", 0);
+		oSettings.SetBoolSetting("USER.EnfMVC.ContextMenuSetting.ShowExtended", flag, 0);
+		if (flag)
+		{
+			MessageBox.Show("True");
+		}else{
+			MessageBox.Show("False");
+		}
 	}
 
 	[DeclareMenu]
@@ -169,5 +183,6 @@ public class UtilitiesToolbar{
 		   oMenu.AddMenuItem("Back up project","backupProject");
 		   oMenu.AddMenuItem("Update and export PDFs","updateAndExportPDF");
 		   oMenu.AddMenuItem("Open project folder","OpenProjectFolder");
+		   oMenu.AddMenuItem("Toggle propery keys","TogglePropertyKeys");
      }
 }
