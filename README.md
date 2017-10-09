@@ -1,2 +1,2 @@
-# EPLAN-T_Data
-Template-data for EPLAN Electric P8
+# EPLAN Grunndata
+Grunndata for EPLAN Electric P8
