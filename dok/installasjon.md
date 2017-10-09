@@ -13,4 +13,6 @@ Denne rutinen beskriver installasjon av EPLAN electric P8 på en windows-maskin 
 - \\ws1\data\software\EPLAN\Electric P8 2.7.3.11418\setup.exe
 - Velg Electric P8 (x64), klikk neste
 - Aksepter lisensen, klikk neste
-- 
+- Klikk Default
+- Velg Company code. OBS! vanskelig å gjøre om senere. En del mapper i mappestrukturen vil få dette navnet. Feltet bør ikke stå tomt. Hør med en kollega om du er usikker.
+- Velg mm, klikk neste
