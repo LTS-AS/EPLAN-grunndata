@@ -32,15 +32,20 @@ C:\Users\Public\EPLAN\Data | Arbeidsmapper
 Legg merke til at alle mapper er plasert på maskinens fellesområde. Det vil si at alle brukere av maskinen har tilgang.
 
 ## Tilpassinger for arbeid mot ny filserver
-Monter nettverkspartisjon med kommandoen
+- Monter nettverkspartisjon
 ```cmd
 NET USE L: \\ws1\data
 ```
 - Kopier arbeidsmappe fra C:\Users\Public\EPLAN\Data til L:\EPLAN\Data
+```cmd
+NET USE L: \\ws1\data
+```
 - Hent scheme....
 
 ## Gratulerer! du jobber nå mot en filserver
 Nå kan flere jobbe mot samme grunndata, og dra nytte av hverandres forbedringer. Flere brukere kan til til og med åpne samme prosjekt samtidig.
 
 ## Arbeid i felt
-....
+- Ta en sikkerhetskopi av C:\Users\Public\EPLAN\Data
+- Slett C:\Users\Public\EPLAN\Data
+- Kopier L:\EPLAN\Data til C:\Users\Public\EPLAN\Data
