@@ -36,3 +36,4 @@ Monter nettverkspartisjon med kommandoen
 ```cmd
 NET USE L: \\ws1\data
 ```
+Kopier arbeidsmappe fra C:\Users\Public\EPLAN\Data til L:\EPLAN\Data
