@@ -37,9 +37,6 @@ Legg merke til at alle mapper er plasert på maskinens fellesområde. Det vil si
 NET USE L: \\ws1\data
 ```
 - Kopier arbeidsmappe fra C:\Users\Public\EPLAN\Data til L:\EPLAN\Data
-```cmd
-NET USE L: \\ws1\data
-```
 - Hent scheme....
 
 ## Gratulerer! du jobber nå mot en filserver
