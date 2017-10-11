@@ -18,7 +18,7 @@ Denne rutinen beskriver installasjon av EPLAN electric P8 på en windows-maskin 
 - Velg Company code. OBS! vanskelig å gjøre om senere. En del mapper i mappestrukturen vil få dette navnet. Feltet bør ikke stå tomt. Hør med en kollega om du er usikker.
 - Velg mm, klikk neste, klikk neste
 
-## Gratulerer! du har installert EPLAN lokalt. Dtte har blitt installert på maskinen
+### Gratulerer! du har installert EPLAN lokalt. Dtte har blitt installert på maskinen
 Mappe | Beskrivelse
 --- | --- 
 C:\Program Files\EPLAN | EPLAN applikasjoner
@@ -27,13 +27,20 @@ C:\ProgramData\EPLAN\O_Data\Electric P8 Data | Originale grunndata for EPLAN Ele
 C:\Users\Public\EPLAN\Settings | 
 C:\Users\Public\EPLAN\Settings | 
 C:\Users\Public\EPLAN\Settings | 
-C:\Users\Public\EPLAN\Data | Arbeidsmappe for brukernes data
+C:\Users\Public\EPLAN\Data | Arbeidsmapper
 
 Legg merke til at alle mapper er plasert på maskinens fellesområde. Det vil si at alle brukere av maskinen har tilgang.
 
-## Tilpassinger for arbeid mot felles filserver
+## Tilpassinger for arbeid mot ny filserver
 Monter nettverkspartisjon med kommandoen
 ```cmd
 NET USE L: \\ws1\data
 ```
-Kopier arbeidsmappe fra C:\Users\Public\EPLAN\Data til L:\EPLAN\Data
+- Kopier arbeidsmappe fra C:\Users\Public\EPLAN\Data til L:\EPLAN\Data
+- Hent scheme....
+
+## Gratulerer! du jobber nå mot en filserver
+Nå kan flere jobbe mot samme grunndata, og dra nytte av hverandres forbedringer. Flere brukere kan til til og med åpne samme prosjekt samtidig.
+
+## Arbeid i felt
+....
