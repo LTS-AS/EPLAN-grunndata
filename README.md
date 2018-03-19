@@ -1,7 +1,9 @@
 # EPLAN Grunndata
 Grunndata for EPLAN Electric P8
 
-## Oversikt over filer
+## Indeksfiler
+Indeksfilene er laget for å få oversikt over filene i EPLAN. Filene skal være sortert på ha2_hex, path_relative, source.
+
 | Fil | Beskrivelse |
 | --- | --- |
 | index/archive.json | Oversikt over filer som potensielt kan brukes som grunndata |
