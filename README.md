@@ -6,7 +6,7 @@ Indeksfilene er laget for å få oversikt over filene i EPLAN. Filene skal være
 
 | Fil | Beskrivelse |
 | --- | --- |
-| index/archive.json | Oversikt over filer som potensielt kan brukes som grunndata |
+| index/archive.json          | Oversikt over filer som potensielt kan brukes som grunndata |
 | index/standard_P8.json      | Utvalgte filer som brukes som grunndata                     |
 
 ## Bidra til bedre grunndata
