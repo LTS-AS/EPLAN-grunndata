@@ -1,5 +1,5 @@
 # EPLAN Grunndata
-Grunndata for EPLAN Electric P8
+Her er en samling av grunndata for EPLAN. Nå er grunndataene begrenset til alle varianter av "Electric P8". Mulig neste steg blir "Mounting Panel"
 
 ## Indeksfiler
 Indeksfilene er laget for å få oversikt over filene i EPLAN. Filene skal være sortert på ha2_hex, path_relative, source.
