@@ -10,6 +10,8 @@ Indeksfilene er laget for å få oversikt over filene i EPLAN. Filene skal være
 | index/standard_P8.json      | Utvalgte filer som brukes som grunndata                     |
 
 ## Bidra til bedre grunndata
+Dette prosjektet vedlikeholdes fra https://gitlab.com/LTS-AS/EPLAN-grunndata. Prosjektet på github.com er en kopi.
+
 - Foreslå endringer med en "Pull request"
 - Opprett et "Issue" om du har spørsmål
 - Kontakt Håvard på havard.line@lts.no eller 97104347 for en innføring
